@@ -1,0 +1,4 @@
+Build/*
+*.xcodeproj
+*Tests/*
+*UITests/*
