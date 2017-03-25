@@ -48,6 +48,8 @@
 		51CA47081E7A62C400E7320D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CA46F81E7A62C400E7320D /* ViewController+MASAdditions.m */; };
 		51EAD4071E77F2F8003C870C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */; };
 		51EAD4091E77F306003C870C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4081E77F306003C870C /* libsqlite3.tbd */; };
+		5B45FED71E86BB5D0022204F /* DXRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */; };
+		5B45FEDD1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45FEDC1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,11 @@
 		51CA46F81E7A62C400E7320D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		51EAD4081E77F306003C870C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5B45FED51E86BB5D0022204F /* DXRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRuntimeViewController.h; sourceTree = "<group>"; };
+		5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRuntimeViewController.m; sourceTree = "<group>"; };
+		5B45FEDB1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DXNavgationBarItem.h"; sourceTree = "<group>"; };
+		5B45FEDC1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DXNavgationBarItem.m"; sourceTree = "<group>"; };
+		5B45FEDE1E86C9560022204F /* DXProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DXProject-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +221,7 @@
 				51B295071E778F05000D4910 /* GCD */,
 				51182CBB1E7645A600AB1FFE /* Main.storyboard */,
 				51182CBE1E7645A600AB1FFE /* Assets.xcassets */,
+				5B45FEDE1E86C9560022204F /* DXProject-Prefix.pch */,
 				51182CEB1E764C5E00AB1FFE /* LaunchScreen.storyboard */,
 				51182CC31E7645A600AB1FFE /* Info.plist */,
 				51182CB01E7645A600AB1FFE /* Products */,
@@ -277,8 +285,12 @@
 			children = (
 				51CA46691E7A3B2E00E7320D /* BaseViewController.h */,
 				51CA466A1E7A3B2E00E7320D /* BaseViewController.m */,
+				5B45FEDB1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.h */,
+				5B45FEDC1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m */,
 				51CA467D1E7A3B2E00E7320D /* DXViewController.h */,
 				51CA467E1E7A3B2E00E7320D /* DXViewController.m */,
+				5B45FED51E86BB5D0022204F /* DXRuntimeViewController.h */,
+				5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */,
 				51CA466B1E7A3B2E00E7320D /* DXBlockViewController.h */,
 				51CA466C1E7A3B2E00E7320D /* DXBlockViewController.m */,
 				51CA46711E7A3B2E00E7320D /* DXDelegateViewController.h */,
@@ -519,6 +531,7 @@
 				51CA46851E7A3B2E00E7320D /* DXFMDBViewController.m in Sources */,
 				51CA46831E7A3B2E00E7320D /* DXDelegateViewController.m in Sources */,
 				51CA46801E7A3B2E00E7320D /* DXBlockViewController.m in Sources */,
+				5B45FEDD1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m in Sources */,
 				51CA46821E7A3B2E00E7320D /* DXDataPersistenceViewController.m in Sources */,
 				51CA47001E7A62C400E7320D /* MASConstraint.m in Sources */,
 				51CA47041E7A62C400E7320D /* MASViewConstraint.m in Sources */,
@@ -537,6 +550,7 @@
 				51B295051E778ECE000D4910 /* Person+PersonExtention.m in Sources */,
 				51182CB41E7645A600AB1FFE /* main.m in Sources */,
 				51CA47081E7A62C400E7320D /* ViewController+MASAdditions.m in Sources */,
+				5B45FED71E86BB5D0022204F /* DXRuntimeViewController.m in Sources */,
 				51CA467F1E7A3B2E00E7320D /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -677,6 +691,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TT4V3AL8UF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SuDaxiStudyPointDemo/DXProject-Prefix.pch";
 				INFOPLIST_FILE = SuDaxiStudyPointDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.ziru.com.SuDaxiStudyPointDemo;
@@ -689,6 +705,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TT4V3AL8UF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SuDaxiStudyPointDemo/DXProject-Prefix.pch";
 				INFOPLIST_FILE = SuDaxiStudyPointDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.ziru.com.SuDaxiStudyPointDemo;
