@@ -22,9 +22,6 @@
     self.isHiddenNavBarLine = YES;
     // Do any additional setup after loading the view.
 }
--(void)initNav{
-    
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
