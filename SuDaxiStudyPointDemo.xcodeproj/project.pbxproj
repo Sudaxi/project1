@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51006DD91E8A6C7C00C6FD13 /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DD81E8A6C7C00C6FD13 /* UIColor+image.m */; };
+		51006DDA1E8A6C7C00C6FD13 /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DD81E8A6C7C00C6FD13 /* UIColor+image.m */; };
+		51006DDB1E8A6C7C00C6FD13 /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DD81E8A6C7C00C6FD13 /* UIColor+image.m */; };
+		51006DDE1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */; };
+		51006DDF1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */; };
+		51006DE01E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */; };
 		51182CB41E7645A600AB1FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182CB31E7645A600AB1FFE /* main.m */; };
 		51182CB71E7645A600AB1FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182CB61E7645A600AB1FFE /* AppDelegate.m */; };
 		51182CBD1E7645A600AB1FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51182CBB1E7645A600AB1FFE /* Main.storyboard */; };
@@ -49,7 +55,6 @@
 		51EAD4071E77F2F8003C870C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */; };
 		51EAD4091E77F306003C870C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4081E77F306003C870C /* libsqlite3.tbd */; };
 		5B45FED71E86BB5D0022204F /* DXRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */; };
-		5B45FEDD1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45FEDC1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51006DD71E8A6C7C00C6FD13 /* UIColor+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+image.h"; sourceTree = "<group>"; };
+		51006DD81E8A6C7C00C6FD13 /* UIColor+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
+		51006DDC1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DXNavgationBarItem.h"; sourceTree = "<group>"; };
+		51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DXNavgationBarItem.m"; sourceTree = "<group>"; };
 		51182CAF1E7645A600AB1FFE /* SuDaxiStudyPointDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuDaxiStudyPointDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51182CB31E7645A600AB1FFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51182CB51E7645A600AB1FFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,8 +165,6 @@
 		51EAD4081E77F306003C870C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		5B45FED51E86BB5D0022204F /* DXRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRuntimeViewController.h; sourceTree = "<group>"; };
 		5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRuntimeViewController.m; sourceTree = "<group>"; };
-		5B45FEDB1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DXNavgationBarItem.h"; sourceTree = "<group>"; };
-		5B45FEDC1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DXNavgationBarItem.m"; sourceTree = "<group>"; };
 		5B45FEDE1E86C9560022204F /* DXProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DXProject-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -259,8 +266,12 @@
 		51B295001E778ECE000D4910 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				51006DDC1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.h */,
+				51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */,
 				51CA46CE1E7A62B900E7320D /* UIView+ZR.h */,
 				51CA46CF1E7A62B900E7320D /* UIView+ZR.m */,
+				51006DD71E8A6C7C00C6FD13 /* UIColor+image.h */,
+				51006DD81E8A6C7C00C6FD13 /* UIColor+image.m */,
 				51B295011E778ECE000D4910 /* Person+PersonExtention.h */,
 				51B295021E778ECE000D4910 /* Person+PersonExtention.m */,
 				51B295031E778ECE000D4910 /* Person.h */,
@@ -285,8 +296,6 @@
 			children = (
 				51CA46691E7A3B2E00E7320D /* BaseViewController.h */,
 				51CA466A1E7A3B2E00E7320D /* BaseViewController.m */,
-				5B45FEDB1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.h */,
-				5B45FEDC1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m */,
 				51CA467D1E7A3B2E00E7320D /* DXViewController.h */,
 				51CA467E1E7A3B2E00E7320D /* DXViewController.m */,
 				5B45FED51E86BB5D0022204F /* DXRuntimeViewController.h */,
@@ -519,6 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51182CB71E7645A600AB1FFE /* AppDelegate.m in Sources */,
+				51006DDE1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */,
 				51CA46891E7A3B2E00E7320D /* DXViewController.m in Sources */,
 				51CA47031E7A62C400E7320D /* MASViewAttribute.m in Sources */,
 				51CA47051E7A62C400E7320D /* NSArray+MASAdditions.m in Sources */,
@@ -531,7 +541,6 @@
 				51CA46851E7A3B2E00E7320D /* DXFMDBViewController.m in Sources */,
 				51CA46831E7A3B2E00E7320D /* DXDelegateViewController.m in Sources */,
 				51CA46801E7A3B2E00E7320D /* DXBlockViewController.m in Sources */,
-				5B45FEDD1E86C3EE0022204F /* UIViewController+DXNavgationBarItem.m in Sources */,
 				51CA46821E7A3B2E00E7320D /* DXDataPersistenceViewController.m in Sources */,
 				51CA47001E7A62C400E7320D /* MASConstraint.m in Sources */,
 				51CA47041E7A62C400E7320D /* MASViewConstraint.m in Sources */,
@@ -551,6 +560,7 @@
 				51182CB41E7645A600AB1FFE /* main.m in Sources */,
 				51CA47081E7A62C400E7320D /* ViewController+MASAdditions.m in Sources */,
 				5B45FED71E86BB5D0022204F /* DXRuntimeViewController.m in Sources */,
+				51006DD91E8A6C7C00C6FD13 /* UIColor+image.m in Sources */,
 				51CA467F1E7A3B2E00E7320D /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,7 +569,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51006DDF1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */,
 				51182CCD1E7645A600AB1FFE /* SuDaxiStudyPointDemoTests.m in Sources */,
+				51006DDA1E8A6C7C00C6FD13 /* UIColor+image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +579,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51006DE01E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */,
 				51182CD81E7645A600AB1FFE /* SuDaxiStudyPointDemoUITests.m in Sources */,
+				51006DDB1E8A6C7C00C6FD13 /* UIColor+image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

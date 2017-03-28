@@ -77,6 +77,8 @@ static char const * const IsHiddenNavBarLine = "isHiddenNavBarLine";
 
 -(void)dxViewWillAppear:(BOOL)animated{
     UINavigationBar *navbar = self.navigationController.navigationBar;
+    UIImage *image = [UIColor createImageWithColor:[UIColor whiteColor]];
+    [navbar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     if (self.isHiddenNavBarLine) {
         [navbar setShadowImage:[UIImage new]];
     }else{

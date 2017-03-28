@@ -19,6 +19,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"runtime";
     [self dx_setLeftBarButtonItem];
+    self.isHiddenNavBarLine = YES;
     // Do any additional setup after loading the view.
 }
 -(void)initNav{
