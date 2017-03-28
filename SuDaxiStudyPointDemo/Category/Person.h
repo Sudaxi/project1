@@ -17,7 +17,7 @@
 }
 //1.遵循NSCoding协议
 //设置属性
-@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *names;
 @property (nonatomic, assign) NSInteger num;
 
 

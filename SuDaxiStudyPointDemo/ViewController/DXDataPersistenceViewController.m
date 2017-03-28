@@ -90,7 +90,7 @@
     NSArray *codePath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *file = [codePath.firstObject stringByAppendingPathComponent:@"person.data"];
     Person *p = [Person new];
-    p.name = self.label.text;
+    p.names = self.label.text;
     p.age = arc4random() % 10;
     [NSKeyedArchiver archiveRootObject:p toFile:file];
     
@@ -103,7 +103,7 @@
     NSString *file = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:@"person.data"];
     Person *p = [NSKeyedUnarchiver unarchiveObjectWithFile:file];
     if (p) {
-        self.txtField.text = p.name;
+        self.txtField.text = p.names;
     }
 }
 

@@ -17,7 +17,7 @@
 {
     self = [super init];
     if (self == nil) return nil;
-    self.name = [aDecoder decodeObjectForKey:@"name"];
+    self.names = [aDecoder decodeObjectForKey:@"names"];
     self.age = [aDecoder decodeIntegerForKey:@"age"];
     return self;
 }
@@ -25,7 +25,7 @@
 //归档
 -(void)encodeWithCoder:(NSCoder *)aCoder
 {
-    [aCoder encodeObject:self.name forKey:@"name"];
+    [aCoder encodeObject:self.names forKey:@"names"];
     [aCoder encodeInteger:self.age forKey:@"age"];
 }
 
