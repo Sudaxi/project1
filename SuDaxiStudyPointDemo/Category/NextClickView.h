@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NextClick : UIButton
+@interface NextClickView : UIView
+@property (copy, nonatomic) void (^clickBlock)();
 @end

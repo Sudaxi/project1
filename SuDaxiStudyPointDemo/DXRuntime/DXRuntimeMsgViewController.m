@@ -18,21 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"runtime";
     [self dx_setLeftBarButtonItem];
     self.isHiddenNavBarLine = YES;
     // Do any additional setup after loading the view.
     [self runtimeTest];
     
-    NextClick *btn = [NextClick new];
-    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    NextClickView *v = [[NextClickView alloc] initWithFrame:CGRectMake(self.view.centerX - 50, self.view.centerY * 0.4, 100, 50)];
+    @weakify(self);
+    v.clickBlock = ^(){
+        @strongify(self);
+           [self.navigationController pushViewController:[DXRuntimeExchangeViewController new] animated:YES];
+    };
+    [self.view addSubview:v];
 }
 
--(void)click{
-    [self.navigationController pushViewController:[DXRuntimeExchangeViewController new] animated:YES];
-}
 -(void)runtimeTest{
     //runtime简称运行时。OC就是运行时机制，也就是在运行时候的一些机制，其中最主要的是消息机制。
     //OC函数属于动态调用过程，在编译的时候并不能决定真正调用那个函数，只有在真正运行的时候才会根据函数的名称找到对应函数来调用。

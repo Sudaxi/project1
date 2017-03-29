@@ -6,22 +6,28 @@
 //  Copyright © 2017年 SYQ. All rights reserved.
 //
 
-#import "NextClick.h"
+#import "NextClickView.h"
 
-@implementation NextClick
+@implementation NextClickView
 
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        UIButton *btn = [UIButton new];
-        btn.frame  = CGRectMake(100, 100, 100, 100);
+//        self.frame = frame;
+        UIButton *btn = [[UIButton alloc] initWithFrame:self.bounds];
         btn.backgroundColor = [UIColor orangeColor];
         btn.layer.cornerRadius = 5.0;
         btn.layer.masksToBounds = YES;
         [btn setTitle:@"点我" forState:UIControlStateNormal];
+        [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:btn];
     }
     return self;
+}
+-(void)click{
+    if (self.clickBlock) {
+        self.clickBlock();
+    }
 }
 /*
 // Only override drawRect: if you perform custom drawing.
