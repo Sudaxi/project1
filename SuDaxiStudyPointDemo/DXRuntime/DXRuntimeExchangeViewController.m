@@ -1,27 +1,27 @@
 //
-//  DXRuntimeViewController.m
+//  DXRuntimeExchangeViewController.m
 //  SuDaxiStudyPointDemo
 //
-//  Created by SuDaxi on 2017/3/25.
+//  Created by SuDaxi on 2017/3/28.
 //  Copyright © 2017年 SYQ. All rights reserved.
 //
 
-#import "DXRuntimeViewController.h"
+#import "DXRuntimeExchangeViewController.h"
 
-@interface DXRuntimeViewController ()
+@interface DXRuntimeExchangeViewController ()
 
 @end
 
-@implementation DXRuntimeViewController
+@implementation DXRuntimeExchangeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"runtime";
+    self.title = @"runtime_exchange";
     [self dx_setLeftBarButtonItem];
-    self.isHiddenNavBarLine = YES;
+
     // Do any additional setup after loading the view.
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

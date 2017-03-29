@@ -15,7 +15,7 @@
 #import "DXDataPersistenceViewController.h"
 #import "DXFMDBViewController.h"
 #import "DXFMDBDispatchViewController.h"
-#import "DXRuntimeViewController.h"
+#import "DXRuntimeMsgViewController.h"
 @interface DXViewController ()<PassByValueDelegate>
 @property (nonatomic, copy) NSString *str;
 @property (nonatomic, strong) DXKVOViewController *bvc;
@@ -45,7 +45,7 @@
 }
 -(void)runtimetest
 {
-    DXRuntimeViewController *vc = [DXRuntimeViewController new];
+    DXRuntimeMsgViewController *vc = [DXRuntimeMsgViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
 -(void)pushFMDBDispatchvc{

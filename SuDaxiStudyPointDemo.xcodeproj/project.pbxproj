@@ -54,7 +54,9 @@
 		51CA47081E7A62C400E7320D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CA46F81E7A62C400E7320D /* ViewController+MASAdditions.m */; };
 		51EAD4071E77F2F8003C870C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */; };
 		51EAD4091E77F306003C870C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4081E77F306003C870C /* libsqlite3.tbd */; };
-		5B45FED71E86BB5D0022204F /* DXRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */; };
+		5BEA6F2A1E8A951D00B40DE5 /* DXRuntimeMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6F291E8A951D00B40DE5 /* DXRuntimeMsgViewController.m */; };
+		5BEA6F2D1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6F2C1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m */; };
+		5BEA6F361E8A9DB800B40DE5 /* NextClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6F351E8A9DB800B40DE5 /* NextClick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,9 +165,13 @@
 		51CA46F81E7A62C400E7320D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		51EAD4081E77F306003C870C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		5B45FED51E86BB5D0022204F /* DXRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRuntimeViewController.h; sourceTree = "<group>"; };
-		5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRuntimeViewController.m; sourceTree = "<group>"; };
 		5B45FEDE1E86C9560022204F /* DXProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DXProject-Prefix.pch"; sourceTree = "<group>"; };
+		5BEA6F281E8A951D00B40DE5 /* DXRuntimeMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRuntimeMsgViewController.h; sourceTree = "<group>"; };
+		5BEA6F291E8A951D00B40DE5 /* DXRuntimeMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRuntimeMsgViewController.m; sourceTree = "<group>"; };
+		5BEA6F2B1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRuntimeExchangeViewController.h; sourceTree = "<group>"; };
+		5BEA6F2C1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRuntimeExchangeViewController.m; sourceTree = "<group>"; };
+		5BEA6F341E8A9DB800B40DE5 /* NextClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextClick.h; sourceTree = "<group>"; };
+		5BEA6F351E8A9DB800B40DE5 /* NextClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextClick.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +226,7 @@
 		51182CB11E7645A600AB1FFE /* SuDaxiStudyPointDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5BEA6F271E8A94FA00B40DE5 /* DXRuntime */,
 				51CA46D11E7A62C400E7320D /* ThirPod */,
 				51182CB51E7645A600AB1FFE /* AppDelegate.h */,
 				51182CB61E7645A600AB1FFE /* AppDelegate.m */,
@@ -276,6 +283,8 @@
 				51B295021E778ECE000D4910 /* Person+PersonExtention.m */,
 				51B295031E778ECE000D4910 /* Person.h */,
 				51B295041E778ECE000D4910 /* Person.m */,
+				5BEA6F341E8A9DB800B40DE5 /* NextClick.h */,
+				5BEA6F351E8A9DB800B40DE5 /* NextClick.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -298,8 +307,6 @@
 				51CA466A1E7A3B2E00E7320D /* BaseViewController.m */,
 				51CA467D1E7A3B2E00E7320D /* DXViewController.h */,
 				51CA467E1E7A3B2E00E7320D /* DXViewController.m */,
-				5B45FED51E86BB5D0022204F /* DXRuntimeViewController.h */,
-				5B45FED61E86BB5D0022204F /* DXRuntimeViewController.m */,
 				51CA466B1E7A3B2E00E7320D /* DXBlockViewController.h */,
 				51CA466C1E7A3B2E00E7320D /* DXBlockViewController.m */,
 				51CA46711E7A3B2E00E7320D /* DXDelegateViewController.h */,
@@ -388,6 +395,17 @@
 				51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BEA6F271E8A94FA00B40DE5 /* DXRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				5BEA6F281E8A951D00B40DE5 /* DXRuntimeMsgViewController.h */,
+				5BEA6F291E8A951D00B40DE5 /* DXRuntimeMsgViewController.m */,
+				5BEA6F2B1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.h */,
+				5BEA6F2C1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m */,
+			);
+			path = DXRuntime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,9 +561,11 @@
 				51CA46801E7A3B2E00E7320D /* DXBlockViewController.m in Sources */,
 				51CA46821E7A3B2E00E7320D /* DXDataPersistenceViewController.m in Sources */,
 				51CA47001E7A62C400E7320D /* MASConstraint.m in Sources */,
+				5BEA6F361E8A9DB800B40DE5 /* NextClick.m in Sources */,
 				51CA47041E7A62C400E7320D /* MASViewConstraint.m in Sources */,
 				51CA47071E7A62C400E7320D /* View+MASAdditions.m in Sources */,
 				51CA47011E7A62C400E7320D /* MASConstraintMaker.m in Sources */,
+				5BEA6F2A1E8A951D00B40DE5 /* DXRuntimeMsgViewController.m in Sources */,
 				51CA46FC1E7A62C400E7320D /* FMDatabaseQueue.m in Sources */,
 				51CA46FF1E7A62C400E7320D /* MASCompositeConstraint.m in Sources */,
 				51CA46861E7A3B2E00E7320D /* DXKVCViewController.m in Sources */,
@@ -556,10 +576,10 @@
 				51CA46881E7A3B2E00E7320D /* DXNotificationViewController.m in Sources */,
 				51CA46D01E7A62B900E7320D /* UIView+ZR.m in Sources */,
 				51CA47021E7A62C400E7320D /* MASLayoutConstraint.m in Sources */,
+				5BEA6F2D1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m in Sources */,
 				51B295051E778ECE000D4910 /* Person+PersonExtention.m in Sources */,
 				51182CB41E7645A600AB1FFE /* main.m in Sources */,
 				51CA47081E7A62C400E7320D /* ViewController+MASAdditions.m in Sources */,
-				5B45FED71E86BB5D0022204F /* DXRuntimeViewController.m in Sources */,
 				51006DD91E8A6C7C00C6FD13 /* UIColor+image.m in Sources */,
 				51CA467F1E7A3B2E00E7320D /* BaseViewController.m in Sources */,
 			);

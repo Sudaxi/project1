@@ -1,5 +1,5 @@
 //
-//  DXRuntimeViewController.h
+//  DXRuntimeMsgViewController.h
 //  SuDaxiStudyPointDemo
 //
 //  Created by SuDaxi on 2017/3/25.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface DXRuntimeViewController : BaseViewController
+@interface DXRuntimeMsgViewController : BaseViewController
 
 @end
