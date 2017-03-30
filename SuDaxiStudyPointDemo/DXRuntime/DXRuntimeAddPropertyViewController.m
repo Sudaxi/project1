@@ -27,6 +27,10 @@
     NSObject *objc = [[NSObject alloc] init];
     objc.name = @"123";
     NSLog(@"runtime_addproperty--%@",objc.name);
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(self.view.centerX - 50, self.view.centerY * 0.4, 100, 50)];
+    [btn DX_setUpCustomBtn];
+    [self.view addSubview:btn];
 //    Person *p = [Person new];
 //    //这里的私有变量 height ,假如直接使用Setter、Getter方法访问，就会出现下面的错误。
 //    /*

@@ -14,7 +14,7 @@
 #import "UIViewController+DXNavgationBarItem.h"
 #import "UIColor+image.h"
 #import "NextClickView.h"
-
+#import "UIButton+DXNextButton.h"
 
 #ifndef weakify
 #if DEBUG
