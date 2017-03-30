@@ -16,6 +16,7 @@
 #import "DXFMDBViewController.h"
 #import "DXFMDBDispatchViewController.h"
 #import "DXRuntimeMsgViewController.h"
+#import "DXCornerViewController.h"
 @interface DXViewController ()<PassByValueDelegate>
 @property (nonatomic, copy) NSString *str;
 @property (nonatomic, strong) DXKVOViewController *bvc;
@@ -29,6 +30,14 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self addNotificationObserver];
     [self addKVOobserver];
+    
+    NextClickView *v = [[NextClickView alloc] initWithFrame:CGRectMake(self.view.centerX - 50, self.view.centerY + 100, 100, 50)];
+    @weakify(self);
+    v.clickBlock = ^(){
+        @strongify(self);
+        [self.navigationController pushViewController:[DXCornerViewController new] animated:YES];
+    };
+    [self.view addSubview:v];
 }
 
 - (IBAction)pushToBvc:(id)sender {

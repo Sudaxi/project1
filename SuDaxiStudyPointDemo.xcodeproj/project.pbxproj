@@ -21,6 +21,7 @@
 		51182CD81E7645A600AB1FFE /* SuDaxiStudyPointDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182CD71E7645A600AB1FFE /* SuDaxiStudyPointDemoUITests.m */; };
 		51182CEC1E764C5E00AB1FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51182CEB1E764C5E00AB1FFE /* LaunchScreen.storyboard */; };
 		513BC5B21E8CE5F100643A5B /* UIButton+DXNextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 513BC5B11E8CE5F100643A5B /* UIButton+DXNextButton.m */; };
+		513BC5B51E8CF09600643A5B /* DXCornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513BC5B41E8CF09600643A5B /* DXCornerViewController.m */; };
 		516450741E8B883F00113BD6 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 516450731E8B883F00113BD6 /* UIImage+image.m */; };
 		516450771E8B885600113BD6 /* DXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 516450761E8B885600113BD6 /* DXImage.m */; };
 		5164507A1E8BAA6F00113BD6 /* DXRuntimeAddMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516450791E8BAA6F00113BD6 /* DXRuntimeAddMethodViewController.m */; };
@@ -104,6 +105,8 @@
 		51182CEB1E764C5E00AB1FFE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		513BC5B01E8CE5F100643A5B /* UIButton+DXNextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DXNextButton.h"; sourceTree = "<group>"; };
 		513BC5B11E8CE5F100643A5B /* UIButton+DXNextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DXNextButton.m"; sourceTree = "<group>"; };
+		513BC5B31E8CF09600643A5B /* DXCornerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXCornerViewController.h; sourceTree = "<group>"; };
+		513BC5B41E8CF09600643A5B /* DXCornerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXCornerViewController.m; sourceTree = "<group>"; };
 		516450721E8B883F00113BD6 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
 		516450731E8B883F00113BD6 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
 		516450751E8B885600113BD6 /* DXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXImage.h; sourceTree = "<group>"; };
@@ -346,6 +349,8 @@
 				51CA46761E7A3B2E00E7320D /* DXFMDBViewController.m */,
 				51CA46731E7A3B2E00E7320D /* DXFMDBDispatchViewController.h */,
 				51CA46741E7A3B2E00E7320D /* DXFMDBDispatchViewController.m */,
+				513BC5B31E8CF09600643A5B /* DXCornerViewController.h */,
+				513BC5B41E8CF09600643A5B /* DXCornerViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -616,6 +621,7 @@
 				51CA46871E7A3B2E00E7320D /* DXKVOViewController.m in Sources */,
 				51CA46881E7A3B2E00E7320D /* DXNotificationViewController.m in Sources */,
 				51CA46D01E7A62B900E7320D /* UIView+ZR.m in Sources */,
+				513BC5B51E8CF09600643A5B /* DXCornerViewController.m in Sources */,
 				51CA47021E7A62C400E7320D /* MASLayoutConstraint.m in Sources */,
 				5BEA6F2D1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m in Sources */,
 				5164507D1E8BB01100113BD6 /* Animals.m in Sources */,
