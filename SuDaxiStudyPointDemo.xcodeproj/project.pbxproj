@@ -62,6 +62,7 @@
 		51CA47081E7A62C400E7320D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CA46F81E7A62C400E7320D /* ViewController+MASAdditions.m */; };
 		51EAD4071E77F2F8003C870C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */; };
 		51EAD4091E77F306003C870C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EAD4081E77F306003C870C /* libsqlite3.tbd */; };
+		5B1E107E1E93A0B4001B8BD7 /* DispatchGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E107D1E93A0B4001B8BD7 /* DispatchGroupViewController.m */; };
 		5BA91C841E9342F200718FAF /* NSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA91C831E9342F200718FAF /* NSOperationQueueViewController.m */; };
 		5BEA6F2A1E8A951D00B40DE5 /* DXRuntimeMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6F291E8A951D00B40DE5 /* DXRuntimeMsgViewController.m */; };
 		5BEA6F2D1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6F2C1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m */; };
@@ -190,6 +191,8 @@
 		51CA46F81E7A62C400E7320D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		51EAD4061E77F2F8003C870C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		51EAD4081E77F306003C870C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5B1E107C1E93A0B4001B8BD7 /* DispatchGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchGroupViewController.h; sourceTree = "<group>"; };
+		5B1E107D1E93A0B4001B8BD7 /* DispatchGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchGroupViewController.m; sourceTree = "<group>"; };
 		5B45FEDE1E86C9560022204F /* DXProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DXProject-Prefix.pch"; sourceTree = "<group>"; };
 		5BA91C821E9342F200718FAF /* NSOperationQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueViewController.h; sourceTree = "<group>"; };
 		5BA91C831E9342F200718FAF /* NSOperationQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueViewController.m; sourceTree = "<group>"; };
@@ -326,6 +329,8 @@
 				51B295091E778F05000D4910 /* ClickBtn.m */,
 				51B2950A1E778F05000D4910 /* GCDViewController.h */,
 				51B2950B1E778F05000D4910 /* GCDViewController.m */,
+				5B1E107C1E93A0B4001B8BD7 /* DispatchGroupViewController.h */,
+				5B1E107D1E93A0B4001B8BD7 /* DispatchGroupViewController.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -643,6 +648,7 @@
 				51182CB41E7645A600AB1FFE /* main.m in Sources */,
 				51CA47081E7A62C400E7320D /* ViewController+MASAdditions.m in Sources */,
 				51006DD91E8A6C7C00C6FD13 /* UIColor+image.m in Sources */,
+				5B1E107E1E93A0B4001B8BD7 /* DispatchGroupViewController.m in Sources */,
 				51CA467F1E7A3B2E00E7320D /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
