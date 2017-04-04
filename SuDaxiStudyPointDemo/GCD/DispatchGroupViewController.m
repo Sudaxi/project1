@@ -19,12 +19,12 @@
     [super viewDidLoad];
     self.title = @"DispatchGroup";
     [self initSubViews];
+        [self downLoadImages];
+//    [self downLoadImageWithGroup];
 }
 
 -(void)click{
     NSLog(@"点击到了区域");
-//    [self downLoadImages];
-    [self downLoadImageWithGroup];
 }
 -(void)initSubViews{
     ClickBtn *btn = [[ClickBtn alloc] init];
@@ -116,22 +116,23 @@
         __block UIImage *image2 = nil;
         
         //关联一个任务到group
-        dispatch_group_async(group, queue, ^{
+        dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             //下载第一张图片
             NSString *url1 = @"http://car0.autoimg.cn/upload/spec/9579/u_20120110174805627264.jpg";
             image1 = [self imageGroupWithURLString:url1];
         });
         
         //关联一个任务到group
-        dispatch_group_async(group, queue, ^{
+        dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             //下载图片
             NSString *url2 = @"http://hiphotos.baidu.com/lvpics/pic/item/3a86813d1fa41768bba16746.jpg";
             image2 = [self imageGroupWithURLString:url2];
         });
         //等待组中的任务执行完毕，回到主线程执行block
-        dispatch_group_notify(group, queue, ^{
+        dispatch_group_notify(group, dispatch_get_main_queue(), ^{
             self.imageView1.image = image1;
             self.imageView2.image = image2;
+            NSLog(@"主线程-----%@",[NSThread currentThread]);
             NSLog(@"图片1---%@",image1);
             NSLog(@"图片1---%@",image2);
         });
