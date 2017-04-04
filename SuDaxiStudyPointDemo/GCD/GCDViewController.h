@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ClickBtn.h"
 
 @interface GCDViewController : UIViewController
 

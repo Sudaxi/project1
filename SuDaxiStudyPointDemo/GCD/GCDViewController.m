@@ -7,8 +7,6 @@
 //
 
 #import "GCDViewController.h"
-#import "Masonry.h"
-#import "UIView+ZR.h"
 #import "Person+PersonExtention.h"
 @interface GCDViewController ()
 

@@ -17,6 +17,7 @@
 #import "DXFMDBDispatchViewController.h"
 #import "DXRuntimeMsgViewController.h"
 #import "DXCornerViewController.h"
+#import "NSOperationQueueViewController.h"
 @interface DXViewController ()<PassByValueDelegate>
 @property (nonatomic, copy) NSString *str;
 @property (nonatomic, strong) DXKVOViewController *bvc;
@@ -49,8 +50,13 @@
 //    [self pushDataPersistentVC];
 //    [self pushFMDBvc];
 //    [self pushFMDBDispatchvc];
-    [self runtimetest];
+//    [self runtimetest];
+    [self NSOperationQueuevc];
     
+}
+-(void)NSOperationQueuevc{
+    NSOperationQueueViewController *vc = [NSOperationQueueViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 -(void)runtimetest
 {
