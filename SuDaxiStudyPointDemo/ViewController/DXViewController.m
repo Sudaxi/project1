@@ -19,6 +19,7 @@
 #import "DXCornerViewController.h"
 #import "NSOperationQueueViewController.h"
 #import "DispatchGroupViewController.h"
+#import "DXCountViewController.h"
 @interface DXViewController ()<PassByValueDelegate>
 @property (nonatomic, copy) NSString *str;
 @property (nonatomic, strong) DXKVOViewController *bvc;
@@ -53,8 +54,12 @@
 //    [self pushFMDBDispatchvc];
 //    [self runtimetest];
 //    [self NSOperationQueuevc];
-    [self dispatchgroupVc];
+//    [self dispatchgroupVc];
+    [self pushCount];
     
+}
+-(void)pushCount{
+    [self.navigationController pushViewController:[DXCountViewController new] animated:YES];
 }
 -(void)dispatchgroupVc{
     DispatchGroupViewController *vc = [DispatchGroupViewController new];

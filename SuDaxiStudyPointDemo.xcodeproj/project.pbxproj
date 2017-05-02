@@ -13,6 +13,7 @@
 		51006DDE1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */; };
 		51006DDF1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */; };
 		51006DE01E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */; };
+		511023AB1EA4A0ED0091A36C /* DXCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511023AA1EA4A0ED0091A36C /* DXCountViewController.m */; };
 		51182CB41E7645A600AB1FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182CB31E7645A600AB1FFE /* main.m */; };
 		51182CB71E7645A600AB1FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182CB61E7645A600AB1FFE /* AppDelegate.m */; };
 		51182CBD1E7645A600AB1FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51182CBB1E7645A600AB1FFE /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 		51B295061E778ECE000D4910 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B295041E778ECE000D4910 /* Person.m */; };
 		51B2950C1E778F05000D4910 /* ClickBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B295091E778F05000D4910 /* ClickBtn.m */; };
 		51B2950D1E778F05000D4910 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B2950B1E778F05000D4910 /* GCDViewController.m */; };
+		51BCEC231EA5BC0800234CA4 /* DXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BCEC221EA5BC0800234CA4 /* DXPerson.m */; };
+		51BCEC2F1EA5F18C00234CA4 /* DXPerson+DXSport.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BCEC2E1EA5F18C00234CA4 /* DXPerson+DXSport.m */; };
 		51CA467F1E7A3B2E00E7320D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CA466A1E7A3B2E00E7320D /* BaseViewController.m */; };
 		51CA46801E7A3B2E00E7320D /* DXBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CA466C1E7A3B2E00E7320D /* DXBlockViewController.m */; };
 		51CA46821E7A3B2E00E7320D /* DXDataPersistenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CA46701E7A3B2E00E7320D /* DXDataPersistenceViewController.m */; };
@@ -91,6 +94,8 @@
 		51006DD81E8A6C7C00C6FD13 /* UIColor+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
 		51006DDC1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DXNavgationBarItem.h"; sourceTree = "<group>"; };
 		51006DDD1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DXNavgationBarItem.m"; sourceTree = "<group>"; };
+		511023A91EA4A0ED0091A36C /* DXCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXCountViewController.h; sourceTree = "<group>"; };
+		511023AA1EA4A0ED0091A36C /* DXCountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXCountViewController.m; sourceTree = "<group>"; };
 		51182CAF1E7645A600AB1FFE /* SuDaxiStudyPointDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuDaxiStudyPointDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51182CB31E7645A600AB1FFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51182CB51E7645A600AB1FFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +134,10 @@
 		51B295091E778F05000D4910 /* ClickBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickBtn.m; sourceTree = "<group>"; };
 		51B2950A1E778F05000D4910 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		51B2950B1E778F05000D4910 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		51BCEC211EA5BC0800234CA4 /* DXPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXPerson.h; sourceTree = "<group>"; };
+		51BCEC221EA5BC0800234CA4 /* DXPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXPerson.m; sourceTree = "<group>"; };
+		51BCEC2D1EA5F18C00234CA4 /* DXPerson+DXSport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DXPerson+DXSport.h"; sourceTree = "<group>"; };
+		51BCEC2E1EA5F18C00234CA4 /* DXPerson+DXSport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DXPerson+DXSport.m"; sourceTree = "<group>"; };
 		51CA46691E7A3B2E00E7320D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		51CA466A1E7A3B2E00E7320D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		51CA466B1E7A3B2E00E7320D /* DXBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXBlockViewController.h; sourceTree = "<group>"; };
@@ -314,6 +323,10 @@
 				51B295021E778ECE000D4910 /* Person+PersonExtention.m */,
 				51B295031E778ECE000D4910 /* Person.h */,
 				51B295041E778ECE000D4910 /* Person.m */,
+				51BCEC211EA5BC0800234CA4 /* DXPerson.h */,
+				51BCEC221EA5BC0800234CA4 /* DXPerson.m */,
+				51BCEC2D1EA5F18C00234CA4 /* DXPerson+DXSport.h */,
+				51BCEC2E1EA5F18C00234CA4 /* DXPerson+DXSport.m */,
 				5BEA6F341E8A9DB800B40DE5 /* NextClickView.h */,
 				5BEA6F351E8A9DB800B40DE5 /* NextClickView.m */,
 				513BC5B01E8CE5F100643A5B /* UIButton+DXNextButton.h */,
@@ -360,6 +373,8 @@
 				51CA46741E7A3B2E00E7320D /* DXFMDBDispatchViewController.m */,
 				513BC5B31E8CF09600643A5B /* DXCornerViewController.h */,
 				513BC5B41E8CF09600643A5B /* DXCornerViewController.m */,
+				511023A91EA4A0ED0091A36C /* DXCountViewController.h */,
+				511023AA1EA4A0ED0091A36C /* DXCountViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -604,6 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51182CB71E7645A600AB1FFE /* AppDelegate.m in Sources */,
+				51BCEC231EA5BC0800234CA4 /* DXPerson.m in Sources */,
 				51006DDE1E8A6D0200C6FD13 /* UIViewController+DXNavgationBarItem.m in Sources */,
 				51CA46891E7A3B2E00E7320D /* DXViewController.m in Sources */,
 				516450741E8B883F00113BD6 /* UIImage+image.m in Sources */,
@@ -627,6 +643,7 @@
 				5BEA6F361E8A9DB800B40DE5 /* NextClickView.m in Sources */,
 				51CA47041E7A62C400E7320D /* MASViewConstraint.m in Sources */,
 				51CA47071E7A62C400E7320D /* View+MASAdditions.m in Sources */,
+				51BCEC2F1EA5F18C00234CA4 /* DXPerson+DXSport.m in Sources */,
 				51CA47011E7A62C400E7320D /* MASConstraintMaker.m in Sources */,
 				516450771E8B885600113BD6 /* DXImage.m in Sources */,
 				5BEA6F2A1E8A951D00B40DE5 /* DXRuntimeMsgViewController.m in Sources */,
@@ -641,6 +658,7 @@
 				51CA46D01E7A62B900E7320D /* UIView+ZR.m in Sources */,
 				513BC5B51E8CF09600643A5B /* DXCornerViewController.m in Sources */,
 				51CA47021E7A62C400E7320D /* MASLayoutConstraint.m in Sources */,
+				511023AB1EA4A0ED0091A36C /* DXCountViewController.m in Sources */,
 				5BEA6F2D1E8A9A0800B40DE5 /* DXRuntimeExchangeViewController.m in Sources */,
 				5164507D1E8BB01100113BD6 /* Animals.m in Sources */,
 				5BA91C841E9342F200718FAF /* NSOperationQueueViewController.m in Sources */,
@@ -799,6 +817,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.ziru.com.SuDaxiStudyPointDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
 			};
 			name = Debug;
 		};
@@ -813,6 +832,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.ziru.com.SuDaxiStudyPointDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
 			};
 			name = Release;
 		};
